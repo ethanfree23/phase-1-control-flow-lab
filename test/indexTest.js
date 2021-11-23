@@ -1,3 +1,6 @@
+
+
+//1
 describe('index.js', function () {
   describe('scuberGreetingForFeet()', function () {
     it('gives customers a free sample if the ride is less than or equal to 400 feet', function () {
@@ -13,6 +16,10 @@ describe('index.js', function () {
     });
   });
 
+
+
+
+//2
   describe('ternaryCheckCity()', function () {
     it('returns "Ok, sounds good." when the city is NYC', function () {
       expect(ternaryCheckCity('NYC')).to.equal('Ok, sounds good.');
@@ -23,6 +30,11 @@ describe('index.js', function () {
     });
   });
 
+
+
+
+
+  //3
   describe('switchOnCharmFromTip()', function () {
     it('should return "Thank you so much." if the tip is generous', function () {
       expect(switchOnCharmFromTip('generous')).to.equal('Thank you so much.');
